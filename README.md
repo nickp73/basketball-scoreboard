@@ -2,7 +2,7 @@
 
 A tiny, responsive basketball scoreboard you can run locally in any modern browser. It shows the Home and Visitors scores, includes an auto‑running game clock, and adapts nicely from phones to desktops.
 
-> Note: The repository folder name and some labels say "Baseball", but the app behaves like a basketball scoreboard (48‑minute clock, quarters). You can easily rename labels if you prefer.
+
 >
 > Side note: This README was created using Junie.
 
