@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="index.css">
+	    <link rel="preconnect" href="https://fonts.googleapis.com">
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    	    <title>Basketball Scoreboard</title>
+
+    </head>
+    <body>
+    <header class="app-header">
+	    <h1>Basketball Scoreboard</h1>
+    </header>
+
+    <main id="main" class="grid-container">
+	    <section class="box" aria-labelledby="home-heading">
+		    <!-- Home header -->
+		    <div class="team-header">
+			    <h2 id="home-heading">HOME</h2>
+			    <div class="team-logo">
+				    <img src="images/sea-lions.png" alt="Home team logo">
+			    </div>
+		    </div>
+		    <div class="inner-top-box" role="status" aria-live="polite" aria-atomic="true">
+			    <span id="home-score" class="score">0</span>
+		    </div>
+		    <div class="inner-box button-row" role="group" aria-label="Add points to Home">
+			    <button type="button" class="fill-vertical" id="home-add-1">+ 1</button>
+			    <button type="button" class="fill-vertical" id="home-add-2">+ 2</button>
+			    <button type="button" class="fill-vertical" id="home-add-3">+ 3</button>
+		    </div>
+	    </section>
+
+	    <section class="box" aria-labelledby="time-heading">
+		    <h2 id="time-heading">TIME</h2>
+		    <div class="inner-top-box" role="status" aria-live="polite" aria-atomic="true">
+			    <span id="time-remaining" class="score">00:00:00</span>
+		    </div>
+		    <div class="inner-box" aria-live="polite" aria-atomic="true">
+			    <span id="inning">QUARTER: Q1</span>
+		    </div>
+	    </section>
+
+	    <section class="box" aria-labelledby="visitors-heading">
+		    <!-- Home header -->
+		    <div class="team-header">
+			    <h2 id="visitors-heading">VISITORS</h2>
+			    <div class="team-logo">
+				    <img src="images/warriors.png" alt="Home team logo">
+			    </div>
+		    </div>
+		    <div class="inner-top-box" role="status" aria-live="polite" aria-atomic="true">
+			    <span id="visitor-score" class="score">0</span>
+		    </div>
+		    <div class="inner-box button-row" role="group" aria-label="Add points to Visitors">
+			    <button type="button" class="fill-vertical" id="visitor-add-1">+ 1</button>
+			    <button type="button" class="fill-vertical" id="visitor-add-2">+ 2</button>
+			    <button type="button" class="fill-vertical" id="visitor-add-3">+ 3</button>
+		    </div>
+	    </section>
+    </main>
+    <script defer src="index.js"></script>
+
+    </body>
+</html>
